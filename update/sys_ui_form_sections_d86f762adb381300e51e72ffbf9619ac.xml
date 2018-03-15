@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="d86f762adb381300e51e72ffbf9619ac" sys_domain="global" table="x_177833_recovery_recovery_template" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:33:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>146f762adb381300e51e72ffbf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177833_recovery_recovery_template" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">d86f762adb381300e51e72ffbf9619ac</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">f42bf21edb701300e51e72ffbf9619c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:33:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:33:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc6f762adb381300e51e72ffbf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177833_recovery_recovery_template" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">d86f762adb381300e51e72ffbf9619ac</sys_ui_form>
+            <sys_ui_section caption="Application Information" display_value="Application Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">9c6ff22adb381300e51e72ffbf961985</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:33:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:33:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>946f762adb381300e51e72ffbf9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177833_recovery_recovery_template" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">d86f762adb381300e51e72ffbf9619ac</sys_ui_form>
+            <sys_ui_section caption="App Support Information" display_value="App Support Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">986ff22adb381300e51e72ffbf961986</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:33:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:33:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>986f762adb381300e51e72ffbf9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177833_recovery_recovery_template" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">d86f762adb381300e51e72ffbf9619ac</sys_ui_form>
+            <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:33:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:33:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>186f762adb381300e51e72ffbf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177833_recovery_recovery_template" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">d86f762adb381300e51e72ffbf9619ac</sys_ui_form>
+            <sys_ui_section caption="Server Information" display_value="Server Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">9c6f762adb381300e51e72ffbf9619aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:33:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:33:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c6f762adb381300e51e72ffbf9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177833_recovery_recovery_template" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">d86f762adb381300e51e72ffbf9619ac</sys_ui_form>
+            <sys_ui_section caption="Network Information" display_value="Network Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:33:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:33:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>946f762adb381300e51e72ffbf9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177833_recovery_recovery_template" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">d86f762adb381300e51e72ffbf9619ac</sys_ui_form>
+            <sys_ui_section caption="Hardware Information" display_value="Hardware Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">9c6f762adb381300e51e72ffbf9619ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:33:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:44:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f120b6adb381300e51e72ffbf9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177833_recovery_recovery_template" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">d86f762adb381300e51e72ffbf9619ac</sys_ui_form>
+            <sys_ui_section caption="History of updates to document" display_value="History of updates to document" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">0b120b6adb381300e51e72ffbf9619ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:44:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_177833_recovery_recovery_template</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:33:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d86f762adb381300e51e72ffbf9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_177833_recovery_recovery_template</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Recovery Template" source="x_177833_recovery">e5eab21edb701300e51e72ffbf961985</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Recovery Template">e5eab21edb701300e51e72ffbf961985</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d86f762adb381300e51e72ffbf9619ac</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:33:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

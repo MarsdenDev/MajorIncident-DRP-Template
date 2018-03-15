@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Recovery Template" max_length="40" name="x_177833_recovery_recovery_template" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What is this Disaster Recovery Playbook for?" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element label="ASP (vendor supported app)" sequence="0" value="ASP (vendor supported app)"/>
+                <element label="Application (customer level)" sequence="1" value="Application (customer level)"/>
+                <element label="Application (App support level)" sequence="2" value="Application (App support level)"/>
+                <element label="Database" sequence="3" value="Database"/>
+                <element label="Server" sequence="4" value="Server"/>
+                <element label="Network" sequence="5" value="Network"/>
+                <element label="Network Hardware" sequence="6" value="Network Hardware"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does this application require special settings to run" mandatory="true" max_length="40" name="u_choice_36" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does this Database require customization to run" mandatory="true" max_length="40" name="u_choice_37" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does this Server require customization to run" mandatory="true" max_length="40" name="u_choice_38" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does this network require customization to run" max_length="40" name="u_choice_39" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does this Hardware require customization to run" max_length="40" name="u_choice_40" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment Group Application Owner is part of" max_length="1024" name="u_glide_list_11" reference="sys_user_group" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that supports the Application" max_length="1024" name="u_glide_list_12" reference="sys_user_group" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group that supports the database the application is hosted on" max_length="1024" name="u_glide_list_13" reference="sys_user_group" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that allocates space for database and sets authentication ty" max_length="1024" name="u_glide_list_14" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that allocate IP Address range/Network settings" max_length="1024" name="u_glide_list_15" reference="sys_user_group" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that sets up Network hardware" max_length="1024" name="u_glide_list_16" reference="sys_user_group" type="glide_list"/>
+        <element label="History" max_length="4000" name="u_journal_1" read_only="true" type="journal"/>
+        <element label="Disaster Recovery Playbook is for" max_length="32" name="u_reference_2" reference="cmdb_ci_app_server" type="reference"/>
+        <element label="Application Owner" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
+        <element label="Assignment group(s) that supports the Application" max_length="32" name="u_reference_4" reference="sys_user_group" type="reference"/>
+        <element label="Assignment group that supports the database the application is hosted on" max_length="32" name="u_reference_5" reference="sys_user_group" type="reference"/>
+        <element label="Assignment group(s) that allocates space for database and sets authentication ty" max_length="32" name="u_reference_6" reference="sys_user_group" type="reference"/>
+        <element label="Assignment group(s) that allocate IP Address range/Network settings" max_length="32" name="u_reference_8" reference="sys_user_group" type="reference"/>
+        <element label="Assignment group(s) that sets up Network hardware" max_length="32" name="u_reference_9" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_17" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_18" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_19" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_20" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_21" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_22" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_23" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_24" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_25" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_26" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_27" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_28" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_29" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_30" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_31" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_32" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_33" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_34" type="string"/>
+        <index name="index">
+            <element name="u_reference_4"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_5"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_2"/>
+        </index>
+        <index name="index4">
+            <element name="u_reference_3"/>
+        </index>
+        <index name="index5">
+            <element name="u_reference_8"/>
+        </index>
+        <index name="index6">
+            <element name="u_reference_9"/>
+        </index>
+        <index name="index7">
+            <element name="u_reference_6"/>
+        </index>
+    </element>
+</database>

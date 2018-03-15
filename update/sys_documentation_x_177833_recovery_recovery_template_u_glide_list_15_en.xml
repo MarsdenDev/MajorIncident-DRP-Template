@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_glide_list_15" label="Assignment group(s) that allocate IP Address range/Network settings" language="en" table="x_177833_recovery_recovery_template">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_glide_list_15</element>
+            <help/>
+            <hint/>
+            <label>Assignment group(s) that allocate IP Address range/Network settings</label>
+            <language>en</language>
+            <name>x_177833_recovery_recovery_template</name>
+            <plural>Assignment group(s) that allocate IP Address range/Network settings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:41:22</sys_created_on>
+            <sys_id>5e41c36adb381300e51e72ffbf96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Assignment group(s) that allocate IP Address range/Network settings</sys_name>
+            <sys_package display_value="Recovery Template" source="x_177833_recovery">e5eab21edb701300e51e72ffbf961985</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Recovery Template">e5eab21edb701300e51e72ffbf961985</sys_scope>
+            <sys_update_name>sys_documentation_x_177833_recovery_recovery_template_u_glide_list_15_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:41:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

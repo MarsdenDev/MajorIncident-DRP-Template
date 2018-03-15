@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_choice_38" label="Does this Server require customization to run" language="en" table="x_177833_recovery_recovery_template">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_choice_38</element>
+            <help/>
+            <hint/>
+            <label>Does this Server require customization to run</label>
+            <language>en</language>
+            <name>x_177833_recovery_recovery_template</name>
+            <plural>Does this Server require customization to runs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:50:06</sys_created_on>
+            <sys_id>ca4383aadb381300e51e72ffbf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Does this Server require customization to run</sys_name>
+            <sys_package display_value="Recovery Template" source="x_177833_recovery">e5eab21edb701300e51e72ffbf961985</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Recovery Template">e5eab21edb701300e51e72ffbf961985</sys_scope>
+            <sys_update_name>sys_documentation_x_177833_recovery_recovery_template_u_choice_38_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:50:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

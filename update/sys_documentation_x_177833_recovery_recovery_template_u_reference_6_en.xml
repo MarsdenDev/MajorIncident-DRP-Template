@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_reference_6" label="Assignment group(s) that allocates space for database and sets authentication ty" language="en" table="x_177833_recovery_recovery_template">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_reference_6</element>
+            <help/>
+            <hint/>
+            <label>Assignment group(s) that allocates space for database and sets authentication ty</label>
+            <language>en</language>
+            <name>x_177833_recovery_recovery_template</name>
+            <plural>Assignment group(s) that allocates space for database and sets authentication ty</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:33:03</sys_created_on>
+            <sys_id>a46f762adb381300e51e72ffbf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Assignment group(s) that allocates space for database and sets authentication types</sys_name>
+            <sys_package display_value="Recovery Template" source="x_177833_recovery">e5eab21edb701300e51e72ffbf961985</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Recovery Template">e5eab21edb701300e51e72ffbf961985</sys_scope>
+            <sys_update_name>sys_documentation_x_177833_recovery_recovery_template_u_reference_6_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 13:33:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
