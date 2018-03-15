@@ -5,7 +5,7 @@
         <element label="SAML" max_length="40" name="u_boolean_14" type="boolean"/>
         <element label="Active Directory" max_length="40" name="u_boolean_15" type="boolean"/>
         <element label="Other" max_length="40" name="u_boolean_19" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="What is this Disaster Recovery Playbook for?" max_length="40" name="u_choice_1" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Disaster Recovery Playbook Type" max_length="40" name="u_choice_1" type="string">
             <choice>
                 <element label="ASP (vendor supported app)" sequence="0" value="ASP (vendor supported app)"/>
                 <element label="Application (customer level)" sequence="1" value="Application (customer level)"/>
@@ -63,13 +63,14 @@
             </choice>
         </element>
         <element label="Time it would take to" max_length="40" name="u_glide_duration_6" type="glide_duration"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Server(s) hosting the database" max_length="1024" name="u_glide_list_1" reference="cmdb_ci_server" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment Group Application Owner is part of" max_length="1024" name="u_glide_list_11" reference="sys_user_group" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that supports the Application" max_length="1024" name="u_glide_list_12" reference="sys_user_group" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group that supports the database the application is hosted on" max_length="1024" name="u_glide_list_13" reference="sys_user_group" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that allocates space for database and sets authentication ty" max_length="1024" name="u_glide_list_14" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that allocate IP Address range/Network settings" max_length="1024" name="u_glide_list_15" reference="sys_user_group" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that sets up Network hardware" max_length="1024" name="u_glide_list_16" reference="sys_user_group" type="glide_list"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Database(s) Application is hosted on" max_length="1024" name="u_glide_list_18" reference="cmdb_ci_cloud_database" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Database(s) hosting application" max_length="1024" name="u_glide_list_18" reference="cmdb_ci_cloud_database" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="What are VPN settings" max_length="1024" name="u_glide_list_22" type="glide_list"/>
         <element label="History" max_length="4000" name="u_journal_1" read_only="true" type="journal"/>
         <element label="Disaster Recovery Playbook is for" max_length="32" name="u_reference_2" reference="cmdb_ci_app_server" type="reference"/>
