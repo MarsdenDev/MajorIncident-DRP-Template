@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Recovery Template activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_177833_recovery_recovery_template_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-15 14:45:16</sys_created_on>
+        <sys_id>1aef0322db781300e51e72ffbf96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_177833_recovery_recovery_template_activity.fields</sys_name>
+        <sys_package display_value="Recovery Template" source="x_177833_recovery">e5eab21edb701300e51e72ffbf961985</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recovery Template">e5eab21edb701300e51e72ffbf961985</sys_scope>
+        <sys_update_name>sys_properties_1aef0322db781300e51e72ffbf96191b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-15 14:45:16</sys_updated_on>
+        <type>string</type>
+        <value>number,u_journal_1,u_boolean_15,u_reference_3,u_reference_4,u_string_29,u_glide_list_11,u_glide_list_13,u_reference_5,u_glide_list_15,u_reference_8,u_glide_list_14,u_reference_6,u_glide_list_16,u_reference_9,u_glide_list_12,sys_created_on,sys_created_by,u_string_22,u_glide_list_18,u_reference_2,u_choice_37,u_choice_40,u_choice_38,u_choice_36,u_choice_39,u_string_34,u_string_33,u_string_18,u_string_30,u_string_26,u_string_23,u_string_12,u_string_19,u_string_24,u_string_25,u_string_31,u_string_32,u_boolean_19,u_string_20,u_string_27,u_boolean_14,u_string_28,sys_tags,u_glide_duration_6,u_string_7,u_string_11,u_string_10,u_string_8,u_string_9,sys_updated_on,sys_updated_by,sys_mod_count,u_glide_list_22,u_string_17,u_string_21,u_choice_2,u_string_5,u_choice_16,u_choice_1,*Email*,*Relations*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=1aef0322db781300e51e72ffbf96191b"/>
+</record_update>

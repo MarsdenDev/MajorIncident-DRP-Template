@@ -1,87 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_section caption="Database Information" section_id="946f762adb381300e51e72ffbf9619aa" sys_domain="global" table="x_177833_recovery_recovery_template" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>327f8feedb381300e51e72ffbf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
+            <text>Check box if Authentication type applies</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_23</element>
+            <element>u_glide_list_18</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-15 13:50:07</sys_created_on>
-            <sys_id>5e4383aadb381300e51e72ffbf96199c</sys_id>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>f27f8feedb381300e51e72ffbf9619bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:50:07</sys_updated_on>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_24</element>
+            <element>u_glide_list_22</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-15 13:50:07</sys_created_on>
-            <sys_id>de4383aadb381300e51e72ffbf96199c</sys_id>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>767f8feedb381300e51e72ffbf9619bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:50:07</sys_updated_on>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_25</element>
+            <element>u_string_23</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-15 13:50:07</sys_created_on>
-            <sys_id>524383aadb381300e51e72ffbf96199d</sys_id>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>f67f8feedb381300e51e72ffbf9619bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:50:07</sys_updated_on>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>327f8feedb381300e51e72ffbf9619bb</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>7a7f8feedb381300e51e72ffbf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_14</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>fa7f8feedb381300e51e72ffbf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_15</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>7e7f8feedb381300e51e72ffbf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_19</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>fe7f8feedb381300e51e72ffbf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-15 13:50:07</sys_created_on>
-            <sys_id>d24383aadb381300e51e72ffbf96199d</sys_id>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>727f8feedb381300e51e72ffbf9619bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:50:07</sys_updated_on>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_glide_list_13</element>
-            <position>4</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-15 13:50:07</sys_created_on>
-            <sys_id>564383aadb381300e51e72ffbf96199d</sys_id>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>f27f8feedb381300e51e72ffbf9619bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:50:07</sys_updated_on>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_choice_37</element>
-            <position>5</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-15 13:50:07</sys_created_on>
-            <sys_id>d64383aadb381300e51e72ffbf96199d</sys_id>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>767f8feedb381300e51e72ffbf9619bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:50:07</sys_updated_on>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_10</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 14:43:23</sys_created_on>
+            <sys_id>f67f8feedb381300e51e72ffbf9619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Database Information" display_value="Database Information" name="x_177833_recovery_recovery_template" sys_domain="global" view="Default view">946f762adb381300e51e72ffbf9619aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-15 14:43:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

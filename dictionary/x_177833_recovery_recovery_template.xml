@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element audit="true" label="Recovery Template" max_length="40" name="x_177833_recovery_recovery_template" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="SAML" max_length="40" name="u_boolean_14" type="boolean"/>
+        <element label="Active Directory" max_length="40" name="u_boolean_15" type="boolean"/>
+        <element label="Other" max_length="40" name="u_boolean_19" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="What is this Disaster Recovery Playbook for?" max_length="40" name="u_choice_1" type="string">
             <choice>
                 <element label="ASP (vendor supported app)" sequence="0" value="ASP (vendor supported app)"/>
@@ -11,6 +14,22 @@
                 <element label="Server" sequence="4" value="Server"/>
                 <element label="Network" sequence="5" value="Network"/>
                 <element label="Network Hardware" sequence="6" value="Network Hardware"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What is the minimum time allowed for data loss" max_length="40" name="u_choice_16" type="string">
+            <choice>
+                <element label="immediate (This will require review)" sequence="0" value="immediate RPO"/>
+                <element label="24 hours" sequence="1" value="24 hours"/>
+                <element label="72 hours" sequence="2" value="72 hours"/>
+                <element label="Recovery is not required" sequence="3" value="Recovery is not required"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What is the backup type" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element label="Spectrum Protect (TSM)" sequence="0" value="Choice 1"/>
+                <element label="Avamar" sequence="1" value="2Choice 2"/>
+                <element label="Networker" sequence="2" value="Networker"/>
+                <element label="other" sequence="3" value="other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Does this application require special settings to run" mandatory="true" max_length="40" name="u_choice_36" type="string">
@@ -43,38 +62,48 @@
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
+        <element label="Time it would take to" max_length="40" name="u_glide_duration_6" type="glide_duration"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment Group Application Owner is part of" max_length="1024" name="u_glide_list_11" reference="sys_user_group" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that supports the Application" max_length="1024" name="u_glide_list_12" reference="sys_user_group" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group that supports the database the application is hosted on" max_length="1024" name="u_glide_list_13" reference="sys_user_group" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that allocates space for database and sets authentication ty" max_length="1024" name="u_glide_list_14" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that allocate IP Address range/Network settings" max_length="1024" name="u_glide_list_15" reference="sys_user_group" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment group(s) that sets up Network hardware" max_length="1024" name="u_glide_list_16" reference="sys_user_group" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Database(s) Application is hosted on" max_length="1024" name="u_glide_list_18" reference="cmdb_ci_cloud_database" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="What are VPN settings" max_length="1024" name="u_glide_list_22" type="glide_list"/>
         <element label="History" max_length="4000" name="u_journal_1" read_only="true" type="journal"/>
         <element label="Disaster Recovery Playbook is for" max_length="32" name="u_reference_2" reference="cmdb_ci_app_server" type="reference"/>
-        <element label="Application Owner" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
-        <element label="Assignment group(s) that supports the Application" max_length="32" name="u_reference_4" reference="sys_user_group" type="reference"/>
+        <element dependent="u_glide_list_11" dependent_on_field="u_glide_list_11" label="Application Owner" max_length="32" name="u_reference_3" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Application dependencies" max_length="32" name="u_reference_4" reference="cmdb_ci" type="reference"/>
         <element label="Assignment group that supports the database the application is hosted on" max_length="32" name="u_reference_5" reference="sys_user_group" type="reference"/>
         <element label="Assignment group(s) that allocates space for database and sets authentication ty" max_length="32" name="u_reference_6" reference="sys_user_group" type="reference"/>
         <element label="Assignment group(s) that allocate IP Address range/Network settings" max_length="32" name="u_reference_8" reference="sys_user_group" type="reference"/>
         <element label="Assignment group(s) that sets up Network hardware" max_length="32" name="u_reference_9" reference="sys_user_group" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_17" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_18" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Time to recover/setup database and be ready for use" max_length="40" name="u_string_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Time to recover/setup application and be ready for use" max_length="40" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Minimum time for application availability (sum of all teams recovery/setup)" max_length="400" name="u_string_12" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="What is the application teams Downtime process" max_length="40000" name="u_string_17" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="How do you test to verify the application is working after a downtime" max_length="40000" name="u_string_18" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_19" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_20" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_21" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_22" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_23" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_string_20" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="What is the authentication type" max_length="40" name="u_string_21" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customization that deviates from standard build" max_length="4000" name="u_string_22" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Is a static IP address required" max_length="40" name="u_string_23" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_24" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_25" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_26" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_27" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_28" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_29" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_30" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IP addresses" max_length="40" name="u_string_26" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Required allocation(this is found by database requirements)" max_length="40" name="u_string_27" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Server type (sql/citrix. found by the database information)" max_length="40" name="u_string_28" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Are firewall settings standard" max_length="40" name="u_string_29" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IP address ranges" max_length="40" name="u_string_30" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_31" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_32" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_33" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_34" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Operating system" max_length="40" name="u_string_32" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Hosting location" max_length="40" name="u_string_33" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Hardware version" max_length="40" name="u_string_34" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="What is the end user Downtime process" max_length="4000" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Time to recover/setup Hardware and be ready for use" max_length="40" name="u_string_7" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Time to recover/setup network and be ready for use" max_length="40" name="u_string_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Time to recover/setup server and be ready for use" max_length="40" name="u_string_9" type="string"/>
         <index name="index">
             <element name="u_reference_4"/>
         </index>
