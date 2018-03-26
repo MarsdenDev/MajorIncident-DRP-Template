@@ -5,6 +5,25 @@
             <dependent_value/>
             <element>u_choice_1</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Application (App support level)</label>
+            <language>en</language>
+            <name>x_177833_recovery_recovery_template</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-15 13:33:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>706fb62adb381300e51e72ffbf96194c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-16 13:19:29</sys_updated_on>
+            <value>Application (App support level)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_1</element>
+            <hint/>
             <inactive>false</inactive>
             <label>ASP (vendor supported app)</label>
             <language>en</language>
@@ -25,7 +44,7 @@
             <element>u_choice_1</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Application (customer level)</label>
+            <label>Application</label>
             <language>en</language>
             <name>x_177833_recovery_recovery_template</name>
             <sequence>1</sequence>
@@ -34,29 +53,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f06fb62adb381300e51e72ffbf96194b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:33:05</sys_updated_on>
+            <sys_updated_on>2018-03-16 13:19:29</sys_updated_on>
             <value>Application (customer level)</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_choice_1</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Application (App support level)</label>
-            <language>en</language>
-            <name>x_177833_recovery_recovery_template</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-15 13:33:05</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>706fb62adb381300e51e72ffbf96194c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:33:05</sys_updated_on>
-            <value>Application (App support level)</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -66,15 +66,15 @@
             <label>Database</label>
             <language>en</language>
             <name>x_177833_recovery_recovery_template</name>
-            <sequence>3</sequence>
+            <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-03-15 13:33:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>fc6fb62adb381300e51e72ffbf96194c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:33:05</sys_updated_on>
+            <sys_updated_on>2018-03-16 13:19:29</sys_updated_on>
             <value>Database</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -85,15 +85,15 @@
             <label>Server</label>
             <language>en</language>
             <name>x_177833_recovery_recovery_template</name>
-            <sequence>4</sequence>
+            <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-03-15 13:33:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7c6fb62adb381300e51e72ffbf96194d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:33:05</sys_updated_on>
+            <sys_updated_on>2018-03-16 13:19:29</sys_updated_on>
             <value>Server</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -104,15 +104,15 @@
             <label>Network</label>
             <language>en</language>
             <name>x_177833_recovery_recovery_template</name>
-            <sequence>5</sequence>
+            <sequence>4</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-03-15 13:33:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f86fb62adb381300e51e72ffbf96194e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:33:05</sys_updated_on>
+            <sys_updated_on>2018-03-16 13:19:29</sys_updated_on>
             <value>Network</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -123,15 +123,15 @@
             <label>Network Hardware</label>
             <language>en</language>
             <name>x_177833_recovery_recovery_template</name>
-            <sequence>6</sequence>
+            <sequence>5</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-03-15 13:33:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>786fb62adb381300e51e72ffbf96194f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-15 13:33:05</sys_updated_on>
+            <sys_updated_on>2018-03-16 13:19:29</sys_updated_on>
             <value>Network Hardware</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

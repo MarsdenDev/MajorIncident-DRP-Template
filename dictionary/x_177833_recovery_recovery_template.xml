@@ -5,15 +5,14 @@
         <element label="SAML" max_length="40" name="u_boolean_14" type="boolean"/>
         <element label="Active Directory" max_length="40" name="u_boolean_15" type="boolean"/>
         <element label="Other" max_length="40" name="u_boolean_19" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Disaster Recovery Playbook Type" max_length="40" name="u_choice_1" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Recovery Playbook Type" max_length="40" name="u_choice_1" type="string">
             <choice>
                 <element label="ASP (vendor supported app)" sequence="0" value="ASP (vendor supported app)"/>
-                <element label="Application (customer level)" sequence="1" value="Application (customer level)"/>
-                <element label="Application (App support level)" sequence="2" value="Application (App support level)"/>
-                <element label="Database" sequence="3" value="Database"/>
-                <element label="Server" sequence="4" value="Server"/>
-                <element label="Network" sequence="5" value="Network"/>
-                <element label="Network Hardware" sequence="6" value="Network Hardware"/>
+                <element label="Application" sequence="1" value="Application (customer level)"/>
+                <element label="Database" sequence="2" value="Database"/>
+                <element label="Server" sequence="3" value="Server"/>
+                <element label="Network" sequence="4" value="Network"/>
+                <element label="Network Hardware" sequence="5" value="Network Hardware"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="What is the minimum time allowed for data loss" max_length="40" name="u_choice_16" type="string">
@@ -30,6 +29,13 @@
                 <element label="Avamar" sequence="1" value="2Choice 2"/>
                 <element label="Networker" sequence="2" value="Networker"/>
                 <element label="other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Interface solution inbound" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Does this application require special settings to run" mandatory="true" max_length="40" name="u_choice_36" type="string">
@@ -56,6 +62,13 @@
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Interface solution outbound" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Does this Hardware require customization to run" max_length="40" name="u_choice_40" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -73,7 +86,7 @@
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Database(s) hosting application" max_length="1024" name="u_glide_list_18" reference="cmdb_ci_cloud_database" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="What are VPN settings" max_length="1024" name="u_glide_list_22" type="glide_list"/>
         <element label="History" max_length="4000" name="u_journal_1" read_only="true" type="journal"/>
-        <element label="Disaster Recovery Playbook is for" max_length="32" name="u_reference_2" reference="cmdb_ci_app_server" type="reference"/>
+        <element label="Recovery Playbook Title" max_length="32" name="u_reference_2" reference="cmdb_ci_app_server" type="reference"/>
         <element dependent="u_glide_list_11" dependent_on_field="u_glide_list_11" label="Application Owner" max_length="32" name="u_reference_3" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Application dependencies" max_length="32" name="u_reference_4" reference="cmdb_ci" type="reference"/>
         <element label="Assignment group that supports the database the application is hosted on" max_length="32" name="u_reference_5" reference="sys_user_group" type="reference"/>
